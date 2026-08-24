@@ -21,7 +21,7 @@ QUESTIONS = [
         "id": 1,
         "lesson": "Lesson 3 (will / be going to)",
         "japanese": "彼女はその競争に勝つだろう。",
-        "correct_order": ["she", "will", "win", "the race."],
+        "correct_order": ["she", "will", "win", "the race"],
         "explanation": "「そうする・そうなる」と話し手がその場で思っていることは〈will＋動詞の原形〉で表します。willは、主語の意志や「そうなるだろう」という話し手の予測を表すときに使います。",
         "ref": "ClearGB Lesson 3-A「will / be going to」（教科書 pp.085-088）",
     },
@@ -29,7 +29,7 @@ QUESTIONS = [
         "id": 2,
         "lesson": "Lesson 3 (when + 現在形)",
         "japanese": "彼が帰宅したらあなたに電話します。",
-        "correct_order": ["i'll", "call", "you", "when he comes home."],
+        "correct_order": ["i'll", "call", "you", "when he comes home"],
         "explanation": "「時」を表すwhenの節の中では、未来のことを表す場合でも動詞は現在形（comes）を使います。× when he will come home とはしません。",
         "ref": "ClearGB Lesson 3-C「when や if のあとの現在形」（教科書 pp.090-093）",
     },
@@ -37,7 +37,7 @@ QUESTIONS = [
         "id": 3,
         "lesson": "Lesson 4 (現在完了形：経験)",
         "japanese": "私は以前、市長に会ったことがある。",
-        "correct_order": ["i", "have met", "the mayor", "before."],
+        "correct_order": ["i", "have met", "the mayor", "before"],
         "explanation": "現在完了形〈have/has＋過去分詞〉で「今までの経験」を表します。before（以前に）などの語句とともに使われることが多い表現です。",
         "ref": "ClearGB Lesson 4-A「現在完了形：経験」（教科書 pp.106-108）",
     },
@@ -45,7 +45,7 @@ QUESTIONS = [
         "id": 4,
         "lesson": "Lesson 4 (現在完了形：完了・結果)",
         "japanese": "私たちはすでにチケットを買った。",
-        "correct_order": ["we've", "already", "bought", "the tickets."],
+        "correct_order": ["we've", "already", "bought", "the tickets"],
         "explanation": "現在完了形で「完了していること」を表す場合、already（すでに）やjust（ちょうど）とともに使われることが多いです。",
         "ref": "ClearGB Lesson 4-B「現在完了形：完了・結果」（教科書 pp.103-106）",
     },
@@ -53,7 +53,7 @@ QUESTIONS = [
         "id": 5,
         "lesson": "Lesson 5 (過去完了形：大過去)",
         "japanese": "私たちがホールに着いたとき、コンサートはすでに始まっていた。",
-        "correct_order": ["the concert", "had already begun", "when we arrived", "at the hall."],
+        "correct_order": ["the concert", "had already begun", "when we arrived", "at the hall"],
         "explanation": "過去のある時点（ホールに着いたとき）よりもさらに前に起きていたことを表すため、過去完了形〈had＋過去分詞〉を使います。",
         "ref": "ClearGB Lesson 5-A「過去完了形：完了・経験・大過去」（教科書 pp.112-114）",
     },
@@ -61,7 +61,7 @@ QUESTIONS = [
         "id": 6,
         "lesson": "Lesson 5 (未来完了形)",
         "japanese": "そのショーは5時までには終わっているだろう。",
-        "correct_order": ["the show", "will have ended", "by five o'clock."],
+        "correct_order": ["the show", "will have ended", "by five o'clock"],
         "explanation": "未来のある時点で「完了しているであろうこと」を表すため、未来完了形〈will have＋過去分詞〉を使います。",
         "ref": "ClearGB Lesson 5-C「未来完了形〈will have＋過去分詞〉」（教科書 pp.117-119）",
     },
@@ -69,7 +69,7 @@ QUESTIONS = [
         "id": 7,
         "lesson": "Lesson 6 (can / be able to)",
         "japanese": "一生懸命走ったので、私は最終電車に乗ることができた。",
-        "correct_order": ["i was able to", "catch the last train", "because", "i ran hard."],
+        "correct_order": ["i was able to", "catch the last train", "because", "i ran hard"],
         "explanation": "実際にその場で「できた」という過去の能力・可能を表すときは、couldではなくwas/were able toを使うのが基本です。",
         "ref": "ClearGB Lesson 6-A「can / be able to：能力・可能」（教科書 pp.135-139）",
     },
@@ -77,7 +77,7 @@ QUESTIONS = [
         "id": 8,
         "lesson": "Lesson 6 (may：推量)",
         "japanese": "彼女の話は本当かもしれない。",
-        "correct_order": ["her story", "may", "be true."],
+        "correct_order": ["her story", "may", "be true"],
         "explanation": "may[might]は「～かもしれない」という現在のことへの推量を表す助動詞です。",
         "ref": "ClearGB Lesson 6-B「may：推量 / can't：可能性」（教科書 pp.146-147）",
     },
@@ -85,7 +85,7 @@ QUESTIONS = [
         "id": 9,
         "lesson": "Lesson 7 (must：義務)",
         "japanese": "私たちは法律に従わなければならない。",
-        "correct_order": ["we", "must", "obey", "the law."],
+        "correct_order": ["we", "must", "obey", "the law"],
         "explanation": "must、have/has toは「しなければならない」という義務を表す表現です。",
         "ref": "ClearGB Lesson 7-A「must / have to：義務 should：当然」（教科書 pp.150-153）",
     },
@@ -93,7 +93,7 @@ QUESTIONS = [
         "id": 10,
         "lesson": "Lesson 7 (must have＋過去分詞)",
         "japanese": "彼はその秘密の計画のことを知っていたにちがいない。",
-        "correct_order": ["he", "must have known", "about the secret plan."],
+        "correct_order": ["he", "must have known", "about the secret plan"],
         "explanation": "〈must have＋過去分詞〉で「～だったにちがいない」という過去のことへの確信を表します。",
         "ref": "ClearGB Lesson 7-C「must/should have＋過去分詞：過去のことへの確信や後悔」（教科書 p.154）",
     },
@@ -465,10 +465,13 @@ if "order" not in st.session_state:
 # ヘルパー関数
 # ============================================================
 def capitalize_sentence(sentence):
-    """文頭の1文字だけを大文字にして表示用の英文を整える。"""
+    """文頭を大文字にし、文末にピリオドを補って表示用の英文を整える。"""
     if not sentence:
         return sentence
-    return sentence[0].upper() + sentence[1:]
+    s = sentence[0].upper() + sentence[1:]
+    if not s.endswith("."):
+        s += "."
+    return s
 
 
 def render_progress_bar(current, total):
