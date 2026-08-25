@@ -12,11 +12,25 @@ st.set_page_config(
 )
 
 # ============================================================
-# 整序問題データ（Lesson 3〜5 全10問）
-# 各問題は「日本語の意味」と「並べ替えるべき語句チャンク」から成る。
-# チャンクを正しい順（correct_order）に並べると意味の通る英文になる。
-# when節・because節は単語レベルまで分解している。
+# ★★★ 出題範囲を変えるときはここだけ編集すればOK ★★★
+#
+# APP_TITLE     : アプリ上部に表示されるタイトル
+# RANGE_LABEL   : サブタイトルに表示される範囲表記（例："Lesson 6〜8 整序問題"）
+# QUESTIONS     : 問題データ本体（下の書式に従って増減・入れ替え自由）
+#
+# 以降のコード（CSS・画面ロジック・結果画面など）は QUESTIONS の中身と
+# 件数に応じて自動で動くので、範囲が変わってもここより下は触らなくてよい。
 # ============================================================
+APP_TITLE = "SEIJO MONDAI MASTER"
+RANGE_LABEL = "Lesson 3〜5 整序問題"
+
+# 各問題は以下のキーを持つ辞書：
+#   id             : 通し番号（何番目でもよいが重複しないこと）
+#   lesson         : 問題カード上部に出す小さいタグ（例："Lesson 6 (受動態)"）
+#   japanese       : 出題される日本語文
+#   correct_order  : 正しい語順に並べた語句チャンクのリスト（これが正解になる）
+#   explanation    : 正解画面・お守りブックに出す文法解説
+#   ref            : 教科書等の参照箇所
 QUESTIONS = [
     {
         "id": 1,
@@ -533,8 +547,8 @@ def go_next_question():
 # ============================================================
 # ヘッダー
 # ============================================================
-st.markdown('<div class="app-title">SEIJO MONDAI MASTER</div>', unsafe_allow_html=True)
-st.markdown('<div class="app-subtitle">— Lesson 3〜5 整序問題 —</div>', unsafe_allow_html=True)
+st.markdown(f'<div class="app-title">{APP_TITLE}</div>', unsafe_allow_html=True)
+st.markdown(f'<div class="app-subtitle">— {RANGE_LABEL} —</div>', unsafe_allow_html=True)
 
 # ============================================================
 # 結果画面
